@@ -2,7 +2,9 @@
 
 int main()
 {
-	puts();
+	puts("What will happen");
+
+	puts("hmm");
 
 	return(0);
 }
