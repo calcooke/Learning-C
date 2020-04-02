@@ -1,1 +1,5 @@
-main(){}
+int main(){
+
+    return(6);
+
+}
