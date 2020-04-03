@@ -40,9 +40,16 @@ int main(){
     // scanf("%d", &x);
     // printf("Integer %d", x);
 
-    char password = "spatula";
+    // char password = "spatula";
 
-    printf("The password is %s \n", password);
+    // printf("The password is %s \n", password);
+
+    char input[64];
+
+    printf("instructions: ");
+    fgets(input, 64, stdin);
+    puts("Here are you instructions: ");
+    puts(input);
     
 
     return(0);
