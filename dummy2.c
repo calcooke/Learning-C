@@ -21,14 +21,18 @@ int main(){
     // printf("Current age is %d \n", age);
 
     int c;
+    int b;
 
-    printf("Type a letter: ");
+    printf("Type two letter: ");
 
     c = getchar();
+    b = getchar();
 
     printf("You typed '");
     putchar(c);
-    printf("'\n");
+    printf("' and '");
+    putchar(b);
+    printf("'/\n ");
     
 
     return(0);
