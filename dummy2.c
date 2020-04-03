@@ -34,11 +34,15 @@ int main(){
     // putchar(b);
     // printf("'/\n ");
 
-    int x;
+    // int x;
 
-    printf("Type an int: ");
-    scanf("%d", &x);
-    printf("Integer %d", x);
+    // printf("Type an int: ");
+    // scanf("%d", &x);
+    // printf("Integer %d", x);
+
+    char password = "spatula";
+
+    printf("The password is %s \n", password);
     
 
     return(0);
