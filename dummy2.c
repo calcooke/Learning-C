@@ -12,6 +12,8 @@ int main(){
 
     printf("Good %s \n", "morning");
 
+    printf("You are a %c %s \n", 'C', "programmer");
+
     return(0);
 
 }
