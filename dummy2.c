@@ -20,19 +20,25 @@ int main(){
 
     // printf("Current age is %d \n", age);
 
-    int c;
-    int b;
+    // int c;
+    // int b;
 
-    printf("Type two letter: ");
+    // printf("Type two letter: ");
 
-    c = getchar();
-    b = getchar();
+    // c = getchar();
+    // b = getchar();
 
-    printf("You typed '");
-    putchar(c);
-    printf("' and '");
-    putchar(b);
-    printf("'/\n ");
+    // printf("You typed '");
+    // putchar(c);
+    // printf("' and '");
+    // putchar(b);
+    // printf("'/\n ");
+
+    int x;
+
+    printf("Type an int: ");
+    scanf("%d", &x);
+    printf("Integer %d", x);
     
 
     return(0);
