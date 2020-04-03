@@ -8,6 +8,8 @@ int main(){
 
     printf("Hello \n world");
 
+    printf("Everyone knows that %d + %d = %d", 2, 2, 2);
+
     return(0);
 
 }
