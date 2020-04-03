@@ -14,11 +14,22 @@ int main(){
 
     // printf("You are a %c %s \n", 'C', "programmer");
 
-    int age;
+    // int age;
 
-    age = 30;
+    // age = 30;
 
-    printf("Current age is %d \n", age);
+    // printf("Current age is %d \n", age);
+
+    int c;
+
+    printf("Type a letter: ");
+
+    c = getchar();
+
+    printf("You typed '");
+    putchar(c);
+    printf("'\n");
+    
 
     return(0);
 
