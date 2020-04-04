@@ -46,7 +46,7 @@ int main(){
 
     char input[64];
 
-    printf("instructions: ");
+    printf("instructions: "); 
     fgets(input, 64, stdin);
     puts("Here are you instructions: ");
     puts(input);
